@@ -116,11 +116,11 @@ src目录：
 
 ### 一：搭建环境
 
-  搭建脚手架环境框架是使用webpack进行搭建的，那么详细如何搭建的，可以看之前这篇文章，<a href="https://github.com/tugenhua0707/react-collection/blob/master/react/reactStaging.md">点击链接进去</a>
+  搭建脚手架环境框架是使用webpack进行搭建的，那么详细如何搭建的，可以看之前这篇文章，<a href="https://github.com/kongzhi0707/front-end-learn/blob/master/react/reactStaging.md">点击链接进去</a>
 
 ### <div id="id2">二：添加eslint代码规范</div>
 
-eslint代码规范也是在网上找到一个规范的，了解更详细的请看之前文章 <a href="https://github.com/tugenhua0707/react-collection/blob/master/es6/eslint.md">点击链接</a>, 我们也可以根据自己的项目中需要
+eslint代码规范也是在网上找到一个规范的，了解更详细的请看之前文章 <a href="https://github.com/kongzhi0707/front-end-learn/blob/master/es6/eslint.md">点击链接</a>, 我们也可以根据自己的项目中需要
 的规范自己决定规范。
 
 ### <div id="id3">三：动态路由封装</div>
@@ -271,7 +271,7 @@ ReactDOM.render(
 ### <div id="id4">四：Redux封装</div>
 
 #### 官方推荐action和reducer放在不同文件目录下，但是在编写代码中切换不同的文件很繁琐。
-常见的做法，如demo列子，<a href="https://github.com/tugenhua0707/react-collection/blob/master/react/redux.md">点击链接查看常见的做法</a>
+常见的做法，如demo列子，<a href="https://github.com/kongzhi0707/front-end-learn/blob/master/react/redux.md">点击链接查看常见的做法</a>
 
   如上demo，我们把action和reducer放入到不同的文件里面，其实我们可以把他们放入一个文件里面的。比如我们现在放入 counter.js 文件内。
 ```
@@ -519,7 +519,7 @@ export default App;
 ```
 ### <div id="id6">六：封装axios请求</div>
 
-  封装axios请求是根据之前文章来进行封装的，之前的文章，请看<a href="https://github.com/tugenhua0707/react-collection/blob/master/ajax/axios.md">这篇文章</a>, 因此把它封装的思想引入到项目中来，因此在我们项目中，我这边在src文件夹目录下新建了一个server文件夹目录，该目录有如下结构文件。
+  封装axios请求是根据之前文章来进行封装的，之前的文章，请看<a href="https://github.com/kongzhi0707/front-end-learn/blob/master/ajax/axios.md">这篇文章</a>, 因此把它封装的思想引入到项目中来，因此在我们项目中，我这边在src文件夹目录下新建了一个server文件夹目录，该目录有如下结构文件。
 ```
 ├── src
 │ ├── server 
@@ -995,7 +995,7 @@ module.exports = {
   ]
 }
 ```
-  装饰器如何使用，也可以看之前的文章 <a href="https://github.com/tugenhua0707/react-collection/blob/master/es6/decorator.md">Es6/Es7之Decorator装饰器模式</a>
+  装饰器如何使用，也可以看之前的文章 <a href="https://github.com/kongzhi0707/front-end-learn/blob/master/es6/decorator.md">Es6/Es7之Decorator装饰器模式</a>
 
 ### <div id="id9">九：添加mock数据</div>
 
@@ -1024,7 +1024,7 @@ module.exports = {
 我们只需要在项目根目录下的mock文件夹中 新建 widget.json文件，然后把和后端约定好的数据格式复制进去即可。然后如果想使用的话，直接在地址栏中添加参数:
 mode=dev 刷新页面即可生效会走本地的mock数据。
 
-  想了解更多，mock如何实现的，<a href="https://github.com/tugenhua0707/react-collection/blob/master/mock/mock.md">请看这篇文章</a> 
+  想了解更多，mock如何实现的，<a href="https://github.com/kongzhi0707/front-end-learn/blob/master/mock/mock.md">请看这篇文章</a> 
 
 ### <div id="id10">十：node实现接口转发</div>
 
@@ -1341,15 +1341,15 @@ module.exports = config;
 ```
   4. 配置下我们的配置文件，这里提供了2种环境，一个是开发环境 dev，另一个是prod环境指的是打包到线上。我们把 host， username， password等等配置填写成自己的。配置完成后，比如我们打包代码到开发环境请，我们只需要运行 deploy dev 命令即可
 
-  想了解更多，<a href="https://github.com/tugenhua0707/fe-deploy-cli-template/tree/master/my-auto-deploy-cli">请看这篇文章</a> 
+  想了解更多，<a href="https://github.com/kongzhi0707/fe-deploy-cli-template/tree/master/my-auto-deploy-cli">请看这篇文章</a> 
 
-  Node实现自动化部署，<a href="https://github.com/tugenhua0707/react-collection/blob/master/autoDeployment/autoDeploy1.md">请看这篇文章</a>
+  Node实现自动化部署，<a href="https://github.com/kongzhi0707/front-end-learn/blob/master/autoDeployment/autoDeploy1.md">请看这篇文章</a>
 
 ### <div id="id12">十二：引入qiankun微前端架构</div>
 
   qiankun有那些优点，懒得说，可以看官网 <a href="https://qiankun.umijs.org/zh/api">进入qiankun官网API</a>
 
-  React引入微前端可以查看demo，<a href="https://github.com/tugenhua0707/micro-app-react">点击查看</a>
+  React引入微前端可以查看demo，<a href="https://github.com/kongzhi0707/micro-app-react">点击查看</a>
 
   下面是分享如何使用 qiankun 如何搭建主应用基座，然后接入react技术栈来完成微应用。
 
@@ -1365,7 +1365,7 @@ module.exports = config;
 
   我们先下载react脚手架，我这边先使用本react搭建框架做demo，我们可以在本地指定的目录克隆react模版，如下命令：
 ```
-git clone https://github.com/tugenhua0707/react-staging-template.git
+git clone https://github.com/kongzhi0707/react-staging-template.git
 ```
   然后修改 项目的文件名称为：'micro-app-main', 该项目是主应用框架，接着我继续克隆一份，项目的文件名改成 'micro-app-react', 这是react其中一个的微应用。
 
@@ -1618,7 +1618,7 @@ module.exports = merge(baseWebpackConfig, {
 ```
 如下图所示：
 
-<img src="https://raw.githubusercontent.com/tugenhua0707/react-collection/master/images/106.jpg" /> <br />
+<img src="https://raw.githubusercontent.com/kongzhi0707/front-end-learn/master/images/106.jpg" /> <br />
 
 
 
